@@ -37,6 +37,7 @@ int primos(int num){
                 }
             }
             
+            //Ultimo if que verifica si el booleano fue modificado o no. Si si entra al if y lo agrega al set y updatea el ultimo dato.
             if (esPrimo) {
                 numPrimos.insert(i); 
                 ultimoPrimo = i;
